@@ -1,5 +1,5 @@
 Command line:
-"travis lint"
+"travis login --github-token 0fca47210302e4b3c3fca301fe023395a49363cd"
 
 
    ________                                 __
@@ -26,7 +26,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on ubuntu at Sat Apr  7 21:12:25 2018 (PID 15845).
+  #  Running on ubuntu at Sat Apr  7 21:09:15 2018 (PID 15262).
   #  Running in /home/alexey/woz91/workspace/projects/lab06
   #  Source code version: Nov 07 2015.
   #  Compiled at Nov 17 2015 23:12:21.
@@ -42,7 +42,7 @@ Command line:
 
     Loading configuration from /root/.travis.conf ...
 
-Unknown parameter: "lint".
+Unknown parameter: "login".
 
     List of supported command line options:
 
