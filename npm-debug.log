@@ -1,0 +1,365 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'gistup' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData gistup
+8 silly fetchNamedPackageData gistup
+9 silly mapToRegistry name gistup
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gistup
+13 verbose request uri https://registry.npmjs.org/gistup
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 18:11:49
+16 verbose request id 4cb69e6ba449f962
+17 verbose etag "58589430-5230"
+18 verbose lastModified Tue, 20 Dec 2016 2:15:12 GMT
+19 http request GET https://registry.npmjs.org/gistup
+20 http 304 https://registry.npmjs.org/gistup
+21 verbose headers { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"58589430-5230"',
+21 verbose headers   age: '12219',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ams4151-AMS',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '6',
+21 verbose headers   'x-timer': 'S1515251509.348101,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"58589430-5230"',
+22 silly get     age: '12219',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ams4151-AMS',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '6',
+22 silly get     'x-timer': 'S1515251509.348101,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose etag https://registry.npmjs.org/gistup from cache
+24 verbose get saving gistup to /home/alexey/.npm/registry.npmjs.org/gistup/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule gistup@0.1.3 checking installable status
+38 silly cache add args [ 'gistup', null ]
+39 verbose cache add spec gistup
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'gistup',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'gistup',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed gistup@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for gistup
+43 info addNameTag [ 'gistup', 'latest' ]
+44 silly mapToRegistry name gistup
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/gistup
+48 verbose addNameTag registry:https://registry.npmjs.org/gistup not in flight; fetching
+49 verbose get https://registry.npmjs.org/gistup not expired, no request
+50 silly addNameTag next cb for gistup with tag latest
+51 silly addNamed gistup@0.1.3
+52 verbose addNamed "0.1.3" is a plain semver version for gistup
+53 silly cache afterAdd gistup@0.1.3
+54 verbose afterAdd /home/alexey/.npm/gistup/0.1.3/package/package.json not in flight; writing
+55 verbose afterAdd /home/alexey/.npm/gistup/0.1.3/package/package.json written
+56 silly fetchNamedPackageData optimist
+57 silly mapToRegistry name optimist
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/optimist
+61 silly fetchNamedPackageData queue-async
+62 silly mapToRegistry name queue-async
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/queue-async
+66 verbose request uri https://registry.npmjs.org/optimist
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 18:11:49
+69 verbose etag "5a390430-b863"
+70 verbose lastModified Tue, 19 Dec 2017 12:21:04 GMT
+71 http request GET https://registry.npmjs.org/optimist
+72 verbose request uri https://registry.npmjs.org/queue-async
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 18:11:49
+75 verbose etag "56b000bf-3ba5"
+76 verbose lastModified Tue, 2 Feb 2016 1:05:03 GMT
+77 http request GET https://registry.npmjs.org/queue-async
+78 http 304 https://registry.npmjs.org/optimist
+79 verbose headers { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+79 verbose headers   via: '1.1 varnish',
+79 verbose headers   'cache-control': 'max-age=300',
+79 verbose headers   etag: '"5a390430-b863"',
+79 verbose headers   age: '8914',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'x-served-by': 'cache-ams4124-AMS',
+79 verbose headers   'x-cache': 'HIT',
+79 verbose headers   'x-cache-hits': '16',
+79 verbose headers   'x-timer': 'S1515251510.569296,VS0,VE0',
+79 verbose headers   vary: 'Accept-Encoding, Accept' }
+80 silly get cb [ 304,
+80 silly get   { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+80 silly get     via: '1.1 varnish',
+80 silly get     'cache-control': 'max-age=300',
+80 silly get     etag: '"5a390430-b863"',
+80 silly get     age: '8914',
+80 silly get     connection: 'keep-alive',
+80 silly get     'x-served-by': 'cache-ams4124-AMS',
+80 silly get     'x-cache': 'HIT',
+80 silly get     'x-cache-hits': '16',
+80 silly get     'x-timer': 'S1515251510.569296,VS0,VE0',
+80 silly get     vary: 'Accept-Encoding, Accept' } ]
+81 verbose etag https://registry.npmjs.org/optimist from cache
+82 verbose get saving optimist to /home/alexey/.npm/registry.npmjs.org/optimist/.cache.json
+83 http 304 https://registry.npmjs.org/queue-async
+84 verbose headers { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+84 verbose headers   via: '1.1 varnish',
+84 verbose headers   'cache-control': 'max-age=300',
+84 verbose headers   etag: '"56b000bf-3ba5"',
+84 verbose headers   age: '1009',
+84 verbose headers   connection: 'keep-alive',
+84 verbose headers   'x-served-by': 'cache-ams4444-AMS',
+84 verbose headers   'x-cache': 'HIT',
+84 verbose headers   'x-cache-hits': '1',
+84 verbose headers   'x-timer': 'S1515251510.573149,VS0,VE1',
+84 verbose headers   vary: 'Accept-Encoding, Accept' }
+85 silly get cb [ 304,
+85 silly get   { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+85 silly get     via: '1.1 varnish',
+85 silly get     'cache-control': 'max-age=300',
+85 silly get     etag: '"56b000bf-3ba5"',
+85 silly get     age: '1009',
+85 silly get     connection: 'keep-alive',
+85 silly get     'x-served-by': 'cache-ams4444-AMS',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '1',
+85 silly get     'x-timer': 'S1515251510.573149,VS0,VE1',
+85 silly get     vary: 'Accept-Encoding, Accept' } ]
+86 verbose etag https://registry.npmjs.org/queue-async from cache
+87 verbose get saving queue-async to /home/alexey/.npm/registry.npmjs.org/queue-async/.cache.json
+88 silly resolveWithNewModule optimist@0.3.7 checking installable status
+89 silly cache add args [ 'optimist@0.3', null ]
+90 verbose cache add spec optimist@0.3
+91 silly cache add parsed spec Result {
+91 silly cache add   raw: 'optimist@0.3',
+91 silly cache add   scope: null,
+91 silly cache add   name: 'optimist',
+91 silly cache add   rawSpec: '0.3',
+91 silly cache add   spec: '>=0.3.0 <0.4.0',
+91 silly cache add   type: 'range' }
+92 silly addNamed optimist@>=0.3.0 <0.4.0
+93 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for optimist
+94 silly addNameRange { name: 'optimist', range: '>=0.3.0 <0.4.0', hasData: false }
+95 silly mapToRegistry name optimist
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/optimist
+99 verbose addNameRange registry:https://registry.npmjs.org/optimist not in flight; fetching
+100 silly resolveWithNewModule queue-async@1.2.1 checking installable status
+101 silly cache add args [ 'queue-async@1', null ]
+102 verbose cache add spec queue-async@1
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'queue-async@1',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'queue-async',
+103 silly cache add   rawSpec: '1',
+103 silly cache add   spec: '>=1.0.0 <2.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed queue-async@>=1.0.0 <2.0.0
+105 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for queue-async
+106 silly addNameRange { name: 'queue-async', range: '>=1.0.0 <2.0.0', hasData: false }
+107 silly mapToRegistry name queue-async
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/queue-async
+111 verbose addNameRange registry:https://registry.npmjs.org/queue-async not in flight; fetching
+112 verbose get https://registry.npmjs.org/optimist not expired, no request
+113 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.0 <0.4.0', hasData: true }
+114 silly addNameRange versions [ 'optimist',
+114 silly addNameRange   [ '0.0.1',
+114 silly addNameRange     '0.0.2',
+114 silly addNameRange     '0.0.4',
+114 silly addNameRange     '0.0.5',
+114 silly addNameRange     '0.0.6',
+114 silly addNameRange     '0.0.7',
+114 silly addNameRange     '0.1.0',
+114 silly addNameRange     '0.1.1',
+114 silly addNameRange     '0.1.2',
+114 silly addNameRange     '0.1.3',
+114 silly addNameRange     '0.1.4',
+114 silly addNameRange     '0.1.5',
+114 silly addNameRange     '0.1.6',
+114 silly addNameRange     '0.1.7',
+114 silly addNameRange     '0.1.8',
+114 silly addNameRange     '0.1.9',
+114 silly addNameRange     '0.0.3',
+114 silly addNameRange     '0.2.0',
+114 silly addNameRange     '0.2.1',
+114 silly addNameRange     '0.2.2',
+114 silly addNameRange     '0.2.3',
+114 silly addNameRange     '0.2.4',
+114 silly addNameRange     '0.2.5',
+114 silly addNameRange     '0.2.6',
+114 silly addNameRange     '0.2.7',
+114 silly addNameRange     '0.2.8',
+114 silly addNameRange     '0.3.0',
+114 silly addNameRange     '0.3.1',
+114 silly addNameRange     '0.3.3',
+114 silly addNameRange     '0.3.4',
+114 silly addNameRange     '0.3.5',
+114 silly addNameRange     '0.3.6',
+114 silly addNameRange     '0.3.7',
+114 silly addNameRange     '0.4.0',
+114 silly addNameRange     '0.5.0',
+114 silly addNameRange     '0.5.1',
+114 silly addNameRange     '0.5.2',
+114 silly addNameRange     '0.6.0',
+114 silly addNameRange     '0.6.1' ] ]
+115 silly addNamed optimist@0.3.7
+116 verbose addNamed "0.3.7" is a plain semver version for optimist
+117 verbose get https://registry.npmjs.org/queue-async not expired, no request
+118 silly addNameRange number 2 { name: 'queue-async', range: '>=1.0.0 <2.0.0', hasData: true }
+119 silly addNameRange versions [ 'queue-async',
+119 silly addNameRange   [ '0.0.2',
+119 silly addNameRange     '1.0.0',
+119 silly addNameRange     '1.0.1',
+119 silly addNameRange     '1.0.2',
+119 silly addNameRange     '1.0.3',
+119 silly addNameRange     '1.0.4',
+119 silly addNameRange     '1.0.5',
+119 silly addNameRange     '1.0.6',
+119 silly addNameRange     '1.0.7',
+119 silly addNameRange     '1.1.0',
+119 silly addNameRange     '1.1.1',
+119 silly addNameRange     '1.2.0',
+119 silly addNameRange     '1.2.1' ] ]
+120 silly addNamed queue-async@1.2.1
+121 verbose addNamed "1.2.1" is a plain semver version for queue-async
+122 silly cache afterAdd optimist@0.3.7
+123 verbose afterAdd /home/alexey/.npm/optimist/0.3.7/package/package.json not in flight; writing
+124 silly cache afterAdd queue-async@1.2.1
+125 verbose afterAdd /home/alexey/.npm/queue-async/1.2.1/package/package.json not in flight; writing
+126 verbose afterAdd /home/alexey/.npm/optimist/0.3.7/package/package.json written
+127 verbose afterAdd /home/alexey/.npm/queue-async/1.2.1/package/package.json written
+128 silly fetchNamedPackageData wordwrap
+129 silly mapToRegistry name wordwrap
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/wordwrap
+133 verbose request uri https://registry.npmjs.org/wordwrap
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 18:11:49
+136 verbose etag "59ffed8e-1b1f"
+137 verbose lastModified Mon, 6 Nov 2017 5:05:18 GMT
+138 http request GET https://registry.npmjs.org/wordwrap
+139 http 304 https://registry.npmjs.org/wordwrap
+140 verbose headers { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+140 verbose headers   via: '1.1 varnish',
+140 verbose headers   'cache-control': 'max-age=300',
+140 verbose headers   etag: '"59ffed8e-1b1f"',
+140 verbose headers   age: '1489',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'x-served-by': 'cache-ams4451-AMS',
+140 verbose headers   'x-cache': 'HIT',
+140 verbose headers   'x-cache-hits': '5',
+140 verbose headers   'x-timer': 'S1515251510.778783,VS0,VE0',
+140 verbose headers   vary: 'Accept-Encoding, Accept' }
+141 silly get cb [ 304,
+141 silly get   { date: 'Sat, 06 Jan 2018 15:11:49 GMT',
+141 silly get     via: '1.1 varnish',
+141 silly get     'cache-control': 'max-age=300',
+141 silly get     etag: '"59ffed8e-1b1f"',
+141 silly get     age: '1489',
+141 silly get     connection: 'keep-alive',
+141 silly get     'x-served-by': 'cache-ams4451-AMS',
+141 silly get     'x-cache': 'HIT',
+141 silly get     'x-cache-hits': '5',
+141 silly get     'x-timer': 'S1515251510.778783,VS0,VE0',
+141 silly get     vary: 'Accept-Encoding, Accept' } ]
+142 verbose etag https://registry.npmjs.org/wordwrap from cache
+143 verbose get saving wordwrap to /home/alexey/.npm/registry.npmjs.org/wordwrap/.cache.json
+144 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+145 silly cache add args [ 'wordwrap@~0.0.2', null ]
+146 verbose cache add spec wordwrap@~0.0.2
+147 silly cache add parsed spec Result {
+147 silly cache add   raw: 'wordwrap@~0.0.2',
+147 silly cache add   scope: null,
+147 silly cache add   name: 'wordwrap',
+147 silly cache add   rawSpec: '~0.0.2',
+147 silly cache add   spec: '>=0.0.2 <0.1.0',
+147 silly cache add   type: 'range' }
+148 silly addNamed wordwrap@>=0.0.2 <0.1.0
+149 verbose addNamed ">=0.0.2 <0.1.0" is a valid semver range for wordwrap
+150 silly addNameRange { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: false }
+151 silly mapToRegistry name wordwrap
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/wordwrap
+155 verbose addNameRange registry:https://registry.npmjs.org/wordwrap not in flight; fetching
+156 verbose get https://registry.npmjs.org/wordwrap not expired, no request
+157 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: true }
+158 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+159 silly addNamed wordwrap@0.0.3
+160 verbose addNamed "0.0.3" is a plain semver version for wordwrap
+161 silly cache afterAdd wordwrap@0.0.3
+162 verbose afterAdd /home/alexey/.npm/wordwrap/0.0.3/package/package.json not in flight; writing
+163 verbose afterAdd /home/alexey/.npm/wordwrap/0.0.3/package/package.json written
+164 silly loadAllDepsIntoIdealTree Finishing
+165 silly idealTree:prePrune lib
+165 silly idealTree:prePrune └─┬ gistup@0.1.3
+165 silly idealTree:prePrune   ├── optimist@0.3.7
+165 silly idealTree:prePrune   ├── queue-async@1.2.1
+165 silly idealTree:prePrune   └── wordwrap@0.0.3
+166 silly loadIdealTree Finishing
+167 silly currentTree lib
+168 silly idealTree lib
+168 silly idealTree └─┬ gistup@0.1.3
+168 silly idealTree   ├── optimist@0.3.7
+168 silly idealTree   ├── queue-async@1.2.1
+168 silly idealTree   └── wordwrap@0.0.3
+169 silly generateActionsToTake Starting
+170 silly install generateActionsToTake
+171 warn checkPermissions Missing write access to /usr/local/lib
+172 silly rollbackFailedOptional Starting
+173 silly rollbackFailedOptional Finishing
+174 silly runTopLevelLifecycles Starting
+175 silly runTopLevelLifecycles Finishing
+176 silly install printInstalled
+177 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+177 verbose stack     at Error (native)
+178 verbose cwd /home/alexey/Alexey01M/workspace/projects/lab05
+179 error Linux 4.4.0-104-generic
+180 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "gistup"
+181 error node v4.2.6
+182 error npm  v3.5.2
+183 error path /usr/local/lib
+184 error code EACCES
+185 error errno -13
+186 error syscall access
+187 error Error: EACCES: permission denied, access '/usr/local/lib'
+187 error     at Error (native)
+187 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+187 error   errno: -13,
+187 error   code: 'EACCES',
+187 error   syscall: 'access',
+187 error   path: '/usr/local/lib' }
+188 error Please try running this command again as root/Administrator.
+189 verbose exit [ -13, true ]

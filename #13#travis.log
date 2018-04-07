@@ -1,5 +1,5 @@
 Command line:
-"travis enable"
+"travis login --auto"
 
 
    ________                                 __
@@ -26,7 +26,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on ubuntu at Sat Apr  7 22:51:45 2018 (PID 3870).
+  #  Running on ubuntu at Sat Apr  7 22:51:40 2018 (PID 3852).
   #  Running in /home/alexey/woz91/workspace/projects/lab08
   #  Source code version: Nov 07 2015.
   #  Compiled at Nov 17 2015 23:12:21.
@@ -42,7 +42,7 @@ Command line:
 
     Loading configuration from /root/.travis.conf ...
 
-Unknown parameter: "enable".
+Unknown parameter: "login".
 
     List of supported command line options:
 
